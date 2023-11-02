@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas ordenadas, no ordenadas y desplegables</title>
+</head>
+
+<body>
+    <!--
+        ------------------------LAS LISTAS------------------------------
+    A. Ordenadas presenta los elementos de manera ordenada de manera alfanumérica
+    según nuestra elección.
+    <ol>
+        <li></li>
+    </ol>
+    - Atributos:
+        type:   los valores serán:
+                ->"1"
+                ->"a"
+                ->"A"
+                ->"I"
+    -->
+    <div>
+        <h2 style="font-family: Verdana, Geneva, Tahoma, sans-serif; color: crimson; text-align: center ;">EJEMPLOS DE
+            TIPOS DE LISTAS</h2>
+        <h3 style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">Listas Ordenadas</h3>
+        <h4>Ejemplo 1: Tabla <i>sencilla</i></h4>
+        <ol type="a">
+            <li><strong>Magadalena</strong>
+                <ol type="I">
+                    <li>Mateo
+                    </li>
+                    <li>José Luis</li>
+                </ol>
+            </li>
+            <li>Antonio</li>
+            <li>Dani</li>
+            <li>Pepe</li>
+            <li>Leo</li>
+        </ol>
+        <hr style="width: 60%">
+
+        <h4>Ejemplos listas anidadas</h4>
+        <ol>
+            <li><b
+                    style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: large;">PADRE
+                    <ol>
+                        <li><b><i>Hijo</i></b>
+                </b>
+                <ol> 
+                    <li>Nieto</li>
+                </ol>
+            </li>
+            <li>Hijo 2
+                <ol>
+                    <li>Nieto 1</li>
+                    <li>Nieto 2
+                        <ol>
+                            <li>Bisnieto</li>
+                        </ol>
+                    </li>
+                </ol>
+            </li>
+        </ol>
+
+
+        </ol>
+        </li>
+        </ol>
+        </li>
+        </ol>
+        <hr style="width: 80%; background-color:red; height: 6px; border-color: blue;">
+        <h3>Irrupción y continuación de listas</h3>
+        <ol type="a">
+            <li>elemento 1</li>
+            <li>elemento 2</li>
+            <li>elemento 3</li>
+        </ol>
+        <h4 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">EXPLICACIONES DEL ELEMENTO</h4>
+        <P>Lorem ipsum dolor sit.
+            Ipsam itaque quos laborum.
+            Sapiente cumque maxime dolore!
+            Ea dolorum commodi vero?</P>
+        <!--
+            La continuación de una irrupción en una lista, la abordaremos por el atributo
+            star=""
+        -->
+        <ol type="a" start="4">
+            <li><b>ELEMENTO 4</b></li>
+        </ol>
+        <hr style="width: 80%; background-color: rgb(241, 159, 18); height: 14px; border-color: darkmagenta;">
+        <h3>Listas no ordenadas</h3>
+        <!--
+            B- Listas no ordenadas
+            -Serán listas no numeradas
+            -Sintáxis:
+            <ul>
+                <li></li>
+            </ul>
+            Atributos: : type
+                disk, square, circle    
+        -->
+        <ul>
+            <li>Leche</li>
+            <li>Cacao</li>
+            <li>Abellanas</li>
+            <li>Azúcar</li>
+            <li>Manteca</li>
+        </ul>
+        <h4>Ejemplo 2: sin listar</h4>
+        <div style="text-align: center;">
+            <ul style="list-style: none;">
+                <li><a href="https://github.com/antonioa7o">⭐Botón 1</a></li>
+                <li><a href="#">👍Botón 2</a></li>
+                <li><a href="">😶‍🌫️Botón 3</a></li>
+        </div>
+        <div style="text-align: center;">
+            <h3> Listas de glosarios</h3>
+            <!--
+                Listas de glosarios
+                - Definición de conceptos, bibliografía, glosarios
+                - Sntáxis:
+                <dl>
+                    <dt>título del dato</dt>
+                    <dd>definición</dd>
+                </dl>
+            -->
+            <h4>Lsta de definición en desarrollo Web</h4>
+            <dl>
+                <dt>HTML 5</dt>
+                <DD>Metaleguaje de marcas paa la elaboración de elementos dentos del DocType</DD>
+
+                <dt>CSS</dt>
+                <dd>Lenguaje asociado a HTML 5, para la generación de estilos en cascada de manera indiependiente</dd>
+                <dt>JavaScrip</dt>
+                <dd>Lenguaje de guión, de ejecuciones en el entorno Cliente</dd>
+            </dl>
+        </div>
+        <!--
+            C. LISTAS DESPLEGABLES
+            - Característica principal de etiqueta de apertura y cierre visuales.
+            Donde se genera de manera interna menús desplegables de accesibilidad al usuario.
+            Indirectamente ya contribuyen a acceder a datos, recopilar, apuntar...
+            -Sintáxis:
+            a) <select>
+                <option></option>
+                </select>
+            b) <select>
+                <optgroup></optgroup>
+                </select>
+        -->
+        <div>
+            <h3>Listas desplegables</h3>
+            <h4>Ejemplo 1: sencilla</h4>
+            <select name="" id="">
+                <option value="">----Selección lenguaje-----</option>
+                <option value="1">JavaScript</option>
+                <option value="">Php</option>
+                <option value="">JAVA</option>
+            </select>
+
+
+
+
+        </div>
+
+
+
+        </ul>
+    </div>
+</body>
+
+</html>
